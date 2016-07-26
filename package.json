@@ -1,0 +1,36 @@
+{
+  "name": "dbserver",
+  "version": "1.0.0",
+  "description": "encapsulation of database service by http protocol",
+  "main": "dbserver.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jellyfishgh/dbserver.git"
+  },
+  "keywords": [
+    "database",
+    "service",
+    "mongodb",
+    "mysql",
+    "redis"
+  ],
+  "author": {
+    "name": "jellyfishgh",
+    "email": "oochoo@live.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jellyfishgh/dbserver/issues"
+  },
+  "homepage": "https://github.com/jellyfishgh/dbserver#readme",
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-google": "^0.6.0"
+  },
+  "dependencies": {
+    "koa": "^2.0.0"
+  }
+}
